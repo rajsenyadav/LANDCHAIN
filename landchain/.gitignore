@@ -1,0 +1,42 @@
+# LandChain AI — .gitignore
+# NEVER commit secrets or node_modules
+
+# Environment files (contain API keys and private keys)
+.env
+*.env
+!.env.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+artifacts/
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+*.pyc
+
+# Hardhat
+deployments/
+typechain/
+typechain-types/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Logs
+*.log
+logs/
